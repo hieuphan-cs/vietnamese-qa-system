@@ -66,12 +66,12 @@ def generate_qa_dataset(input_filepath, output_filepath, target_qa=300):
 
                     ĐỊNH DẠNG JSON MẪU:
                     [
-                    {{"instruction": "Sinh viên muốn xem lại điểm thi thì làm thế nào ạ?", "output": "Để xem lại điểm thi, sinh viên cần nộp đơn phúc khảo..."}},
-                    {{"instruction": "Quy định về thời gian đóng học phí là khi nào?", "output": "Theo quy chế, thời gian đóng học phí..."}}
+                        {{"instruction": "Sinh viên muốn xem lại điểm thi thì làm thế nào ạ?", "output": "Để xem lại điểm thi, sinh viên cần nộp đơn phúc khảo..."}},
+                        {{"instruction": "Quy định về thời gian đóng học phí là khi nào?", "output": "Theo quy chế, thời gian đóng học phí..."}}
                     ]
 
                     ĐOẠN QUY CHẾ:
-                    {content}
+                        {content}
                     """
                 try:
                     # Gọi API Gemini
@@ -91,8 +91,8 @@ def generate_qa_dataset(input_filepath, output_filepath, target_qa=300):
                 except Exception as e:
                     print(f"  [!] Lỗi ở chunk {chunk_count}: {str(e)[:100]}... Bỏ qua và đi tiếp.")
                 
-                # NGHỈ 4 GIÂY: Bước lách luật giới hạn (Rate Limit) của bản miễn phí
-                time.sleep(4)
+                # NGHỈ 3 GIÂY: Bước lách luật giới hạn (Rate Limit) của bản miễn phí
+                time.sleep(3)
 
     print("-" * 40)
     print(f"Hoàn tất! Đã lưu {generated_count} cặp QA vào file: {output_filepath}")
@@ -107,4 +107,4 @@ if __name__ == "__main__":
     OUTPUT_FILE = os.path.join(BASE_DIR, "data", "processed", "train_qa.jsonl")
     
     # Chạy hàm với mục tiêu sinh 300 câu
-    generate_qa_dataset(INPUT_FILE, OUTPUT_FILE, target_qa=300)
+    generate_qa_dataset(INPUT_FILE, OUTPUT_FILE, target_qa=324)

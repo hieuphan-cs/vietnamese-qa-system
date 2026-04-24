@@ -5,3 +5,6 @@
     source venv/Scripts/activate
     
 3. Tải các thư viện trong file requirements.txt
+
+4. Trình tự chạy file:
+    process_data.py -> chunk_data.py -> generate_qa.py

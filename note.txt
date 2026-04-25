@@ -1,0 +1,10 @@
+1. Tạo 1 folder venv trong gitbash: 
+    python -m venv venv
+
+2. Kích hoạt venv:
+    source venv/Scripts/activate
+    
+3. Tải các thư viện trong file requirements.txt
+
+4. Trình tự chạy file:
+    process_data.py -> chunk_data.py -> generate_qa.py

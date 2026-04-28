@@ -3,8 +3,9 @@
 ## Updating...
 
 
+Scope: Rule in Education
 
-# Group lồn Group Cặc
+Fine-tuned LLM + RAG
 
 ## Addition information:
-- Authors: Hieu, TUn, Name
+- Authors: Hieu Phan, Tuan Nguyen, Nam Nguyen

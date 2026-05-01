@@ -7,8 +7,8 @@ from PIL import Image
 # ==========================================
 # CẤU HÌNH API KEY (Thay bằng key của bạn)
 # ==========================================
-GOOGLE_API_KEY = "AIzaSyDPtIs3QY_JB5k70hrCa3IzFBaSchz5iZ0"
-#GOOGLE_API_KEY = "ĐIỀN_API_KEY_CỦA_BẠN_VÀO_ĐÂY"
+
+GOOGLE_API_KEY = "ĐIỀN_API_KEY_CỦA_BẠN_VÀO_ĐÂY"
 
 genai.configure(api_key=GOOGLE_API_KEY)
 

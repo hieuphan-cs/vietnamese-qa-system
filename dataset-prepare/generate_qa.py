@@ -7,8 +7,8 @@ import google.generativeai as genai
 # ==========================================
 # CẤU HÌNH API KEY
 # ==========================================
-#GOOGLE_API_KEY = "ĐIỀN_API_KEY_CỦA_BẠN_VÀO_ĐÂY"
-GOOGLE_API_KEY = "AIzaSyCZeblpbFanMxbcXSE_oUwxLxQCTvvQtNg"
+GOOGLE_API_KEY = "ĐIỀN_API_KEY_CỦA_BẠN_VÀO_ĐÂY"
+
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Sử dụng gemini-1.5-flash để đảm bảo ổn định

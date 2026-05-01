@@ -44,10 +44,11 @@ def create_semantic_chunks(input_filepath, output_filepath):
             # Lưu từng chunk kèm metadata gốc
             for i, chunk_text in enumerate(chunks):
                 chunk_doc = {
+                    "source": doc.get("source", ""),
                     "source_url": doc.get("source_url", ""),
                     "title": doc.get("title", ""),
                     "category": doc.get("category", ""),
-                    "chunk_id": f"{doc.get('title', 'doc')}_chunk_{i}",
+                    "chunk_id": f"{doc.get('source', 'doc')}_chunk_{i}",
                     "content": chunk_text,
                     "metadata": doc.get("metadata", {})
                 }

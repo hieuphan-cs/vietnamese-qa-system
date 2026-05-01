@@ -14,6 +14,7 @@ def clean_crawled_json(json_data):
     url = data.get("url", "")
     title = data.get("title", "")
     label = data.get("label", "")
+    category = data.get("topic", "")
     cleaned_text_blocks = []
     
     if title:
@@ -39,10 +40,12 @@ def clean_crawled_json(json_data):
     full_text = "\n".join(cleaned_text_blocks).strip()
 
     return {
+        "source": label,
         "source_url": url,
         "title": title,
-        "category": label,
-        "content": full_text
+        "category": category,
+        "content": full_text,
+        "metadata": {}
     }
 
 def process_all_files(input_dir, output_file):
@@ -87,10 +90,15 @@ def process_all_files(input_dir, output_file):
 
 # --- THỰC THI SCRIPT ---
 if __name__ == "__main__":
-    # Đường dẫn thư mục chứa 5 file json
-    INPUT_DIRECTORY = "data/raw/public" 
     
-    # Đường dẫn file output (gom tất cả lại)
-    OUTPUT_FILEPATH = "data/processed/cleaned_knowledge_base.jsonl"
+    # 1. Lấy đường dẫn của thư mục chứa script hiện tại (thư mục 'data-pipeline')
+    SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
     
-    process_all_files(INPUT_DIRECTORY, OUTPUT_FILEPATH)
+    # 2. Lùi lại 1 cấp để lấy đường dẫn thư mục gốc của dự án
+    PROJECT_ROOT = os.path.dirname(SCRIPT_DIR) 
+    
+    # 3. Nối đường dẫn từ thư mục gốc vào thư mục data
+    RAW_DIRECTORY = os.path.join(PROJECT_ROOT, "data", "raw", "public")
+    OUTPUT_FILE = os.path.join(PROJECT_ROOT, "data", "processed", "cleaned_knowledge_base.jsonl")
+    
+    process_all_files(RAW_DIRECTORY, OUTPUT_FILE)

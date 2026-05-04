@@ -7,8 +7,8 @@ import google.generativeai as genai
 # ==========================================
 # CẤU HÌNH API KEY
 # ==========================================
-GOOGLE_API_KEY = "ĐIỀN_API_KEY_CỦA_BẠN_VÀO_ĐÂY"
-
+#GOOGLE_API_KEY = "ĐIỀN_API_KEY_CỦA_BẠN_VÀO_ĐÂY"
+GOOGLE_API_KEY = "AIzaSyBEO5Qv6jLrfrx-3bXmg-YHig3GVOWHMTI"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Sử dụng gemini-1.5-flash để đảm bảo ổn định
@@ -109,7 +109,7 @@ def generate_and_split_qa(input_filepath, train_output, test_output, test_size=5
             except Exception as e:
                 print(f"  [!] Lỗi ở chunk {chunk_count}: {str(e)[:100]}... Bỏ qua.")
 
-            time.sleep(4)
+            time.sleep(5)
 
     # Xáo trộn và chia train/test
     total_qa = len(all_qa_pairs)
@@ -156,8 +156,8 @@ if __name__ == "__main__":
     # Thư mục 'dataset' này nằm bên trong thư mục 'data'
     DATASET_DIR = os.path.join(PROJECT_ROOT, "data", "dataset")
     
-    TRAIN_FILE = os.path.join(DATASET_DIR, "train_qa.jsonl")
-    TEST_FILE = os.path.join(DATASET_DIR, "test_qa.jsonl")
+    TRAIN_FILE = os.path.join(DATASET_DIR, "train_qa_v2.jsonl")
+    TEST_FILE = os.path.join(DATASET_DIR, "test_qa_v2.jsonl")
     
     # Chạy hàm với kích thước tập test là 50
     generate_and_split_qa(INPUT_FILE, TRAIN_FILE, TEST_FILE, test_size=50)

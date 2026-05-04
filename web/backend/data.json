@@ -1,0 +1,383 @@
+[
+{
+  "model": "users.user",
+  "pk": 1,
+  "fields": {
+    "password": "",
+    "last_login": "2026-04-18T14:10:24.092Z",
+    "is_superuser": false,
+    "email": "anhtuannguyenhuynh2005@gmail.com",
+    "role": "ADMIN",
+    "name": "Nguyễn Tuấn",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIaBLCQboD0WCQXzhUsXPstsrvpkjm3B8fZgxF39v4hWDp4wg=s96-c",
+    "is_active": true,
+    "is_staff": false,
+    "user_code": null,
+    "created_at": "2026-04-18T14:06:10.562Z",
+    "updated_at": "2026-04-18T14:06:10.562Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 2,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "email": "lethianhthi@gmail.com",
+    "role": "STUDENT",
+    "name": "Lê Thị Anh Thư",
+    "avatar": null,
+    "is_active": true,
+    "is_staff": false,
+    "user_code": null,
+    "created_at": "2026-04-18T14:16:27.685Z",
+    "updated_at": "2026-04-18T14:16:27.685Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 3,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "email": "nguyenhoanganh@gmail.com",
+    "role": "TEACHER",
+    "name": "Nguyễn Hoàng Anh",
+    "avatar": null,
+    "is_active": true,
+    "is_staff": false,
+    "user_code": null,
+    "created_at": "2026-04-18T14:16:27.692Z",
+    "updated_at": "2026-04-18T14:16:27.692Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$RE0dvMHbfqeMOErVAFnB6q$UzoaciMyDi3L6SkSB+oDCUTLhHjwMKUhDEFKdtdm9jM=",
+    "last_login": "2026-04-19T04:32:10.348Z",
+    "is_superuser": true,
+    "email": "admin@gmail.com",
+    "role": "ADMIN",
+    "name": "Trí Hiếu",
+    "avatar": null,
+    "is_active": true,
+    "is_staff": true,
+    "user_code": null,
+    "created_at": "2026-04-18T14:44:25.902Z",
+    "updated_at": "2026-04-18T14:44:25.902Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 5,
+  "fields": {
+    "password": "",
+    "last_login": "2026-04-19T04:34:17.180Z",
+    "is_superuser": false,
+    "email": "baogiatran29@gmail.com",
+    "role": "ADMIN",
+    "name": "Bảo Trần",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocKtf_FLoI81IOZ8zI78i6QJyeCYxvRz1bmVqlxtnnJ8uQ0FfF9T=s96-c",
+    "is_active": true,
+    "is_staff": false,
+    "user_code": null,
+    "created_at": "2026-04-19T04:33:44.647Z",
+    "updated_at": "2026-04-19T04:33:44.648Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 6,
+  "fields": {
+    "password": "",
+    "last_login": "2026-04-20T10:00:10.226Z",
+    "is_superuser": false,
+    "email": "523h0006@student.tdtu.edu.vn",
+    "role": "ADMIN",
+    "name": "Trần Gia Bảo",
+    "avatar": "https://lh3.googleusercontent.com/a/ACg8ocIp6P5usRrTFjikC5hEk6aSfRNItGQqzTPW923EwLagwv8t7g=s96-c",
+    "is_active": true,
+    "is_staff": false,
+    "user_code": null,
+    "created_at": "2026-04-20T08:37:09.853Z",
+    "updated_at": "2026-04-20T08:37:09.853Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 9,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "email": "nguyenvanan@gmail.com",
+    "role": "STUDENT",
+    "name": "Nguyễn Văn Vỹ",
+    "avatar": null,
+    "is_active": true,
+    "is_staff": false,
+    "user_code": null,
+    "created_at": "2026-04-20T09:15:29.132Z",
+    "updated_at": "2026-04-20T09:16:15.356Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.user",
+  "pk": 10,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "email": "nguyenvanbinh@gmail.com",
+    "role": "STUDENT",
+    "name": "Nguyễn Văn Bình",
+    "avatar": null,
+    "is_active": true,
+    "is_staff": false,
+    "user_code": "SV001",
+    "created_at": "2026-04-20T09:15:29.143Z",
+    "updated_at": "2026-04-20T09:16:33.198Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "code": "TRITUENHANTAO",
+    "name": "Trí tuệ nhân tạo",
+    "teachers": []
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 2,
+  "fields": {
+    "code": "INT123",
+    "name": "Lập trình Web",
+    "teachers": [
+      3
+    ]
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 3,
+  "fields": {
+    "code": "INPP",
+    "name": "Bóng Đá",
+    "teachers": []
+  }
+},
+{
+  "model": "documents.document",
+  "pk": 1,
+  "fields": {
+    "title": "Trí tuệ nhân tạo.pdf",
+    "file": "documents/2026/04/Trí_tuệ_nhân_tạo.pdf",
+    "file_size": 1455780,
+    "file_type": ".pdf",
+    "status": "READY",
+    "course": 1,
+    "uploaded_by": 1,
+    "checksum": "9342ad9101c78cb9128643e30eff8a54",
+    "created_at": "2026-04-18T14:11:09.070Z",
+    "updated_at": "2026-04-18T14:11:16.881Z"
+  }
+},
+{
+  "model": "documents.document",
+  "pk": 3,
+  "fields": {
+    "title": "Lập trình Web.pdf",
+    "file": "documents/2026/04/Lập_trình_Web.pdf",
+    "file_size": 376946,
+    "file_type": ".pdf",
+    "status": "READY",
+    "course": 2,
+    "uploaded_by": 6,
+    "checksum": "542a5d7944b6246e43685c7759906e41",
+    "created_at": "2026-04-20T09:33:41.867Z",
+    "updated_at": "2026-04-20T09:36:04.413Z"
+  }
+},
+{
+  "model": "chat.chatsession",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "course": 1,
+    "title": "trí tuệ nhân tạo là gì?",
+    "created_at": "2026-04-18T14:12:30.299Z"
+  }
+},
+{
+  "model": "chat.chatsession",
+  "pk": 14,
+  "fields": {
+    "user": 6,
+    "course": 2,
+    "title": "Thiết kế web là gì",
+    "created_at": "2026-04-20T10:05:46.222Z"
+  }
+},
+{
+  "model": "chat.chatsession",
+  "pk": 15,
+  "fields": {
+    "user": 6,
+    "course": 3,
+    "title": "Bóng đá là gì",
+    "created_at": "2026-04-20T10:32:42.815Z"
+  }
+},
+{
+  "model": "chat.chatsession",
+  "pk": 16,
+  "fields": {
+    "user": 6,
+    "course": 1,
+    "title": "trí tuệ nhân tạo là gì",
+    "created_at": "2026-04-20T10:49:11.331Z"
+  }
+},
+{
+  "model": "chat.chatmessage",
+  "pk": 1,
+  "fields": {
+    "session": 1,
+    "sender_role": "user",
+    "content": "trí tuệ nhân tạo là gì?",
+    "created_at": "2026-04-18T14:12:30.306Z"
+  }
+},
+{
+  "model": "chat.chatmessage",
+  "pk": 2,
+  "fields": {
+    "session": 1,
+    "sender_role": "ai",
+    "content": "Dựa trên tài liệu được cung cấp, **Trí tuệ nhân tạo** (tiếng Anh: *Artificial intelligence*, viết tắt là **AI**) được định nghĩa như sau:\n\n*   **Định nghĩa cơ bản:** Là khả năng của các hệ thống máy tính thực hiện các nhiệm vụ liên quan đến trí thông minh của con người, bao gồm các hoạt động như học tập, suy luận, giải quyết vấn đề, nhận thức và đưa ra quyết định.\n*   **Lĩnh vực nghiên cứu:** Đây là một chuyên ngành thuộc khoa học máy tính, tập trung vào việc phát triển và nghiên cứu các phương pháp cũng như phần mềm giúp máy móc có thể:\n    *   Nhận thức môi trường xung quanh.\n    *   Sử dụng khả năng học tập và trí tuệ để thực hiện các hành động nhằm tối đa hóa khả năng đạt được các mục tiêu đã định.\n*   **Các mục tiêu truyền thống:** Nghiên cứu AI tập trung vào các mục tiêu cụ thể như học tập, lập luận, biểu diễn tri thức, lập kế hoạch, xử lý ngôn ngữ tự nhiên, nhận thức và hỗ trợ robot.\n*   **Các trường phái tư duy:** AI được chia thành hai trường phái chính là:\n    1.  Trí tuệ nhân tạo truyền thống.\n    2.  Trí tuệ tính toán.Ngoài ra, tài liệu cũng đề cập rằng AI còn kế thừa kiến thức từ nhiều lĩnh vực khác như tâm lý học, ngôn ngữ học, triết học và khoa học thần kinh.\n\n---\n**Thông tin tham khảo:**\n* Tài liệu: Trí tuệ nhân tạo.pdf, Trang 1, Đoạn: \"Trí tuệ nhân tạo Trí tuệ nhân tạo (tiếng Anh: Artificial int...\"\n* Tài liệu: Trí tuệ nhân tạo.pdf, Trang 1, Đoạn: \"nghệ thuật AI); cùng khả năng chơi và phân tích vượt trội hơ...\"\n* Tài liệu: Trí tuệ nhân tạo.pdf, Trang 1, Đoạn: \"tối ưu hóa toán học, logic hình thức, mạng nơ-ron nhân tạo, ...\"\n* Tài liệu: Trí tuệ nhân tạo.pdf, Trang 6, Đoạn: \"điều khiển học, điều này khiến các nhà nghiên cứu cân nhắc k...\"\n* Tài liệu: Trí tuệ nhân tạo.pdf, Trang 10, Đoạn: \"Nhận thức nhân tạo – một lĩnh vực trong khoa học nhận thức T...\"\n* Tài liệu: Trí tuệ nhân tạo.pdf, Trang 10, Đoạn: \"Thuật ngữ trí tuệ nhân tạo – danh sách các định nghĩa về thu...\"\n",
+    "created_at": "2026-04-18T14:12:35.112Z"
+  }
+},
+{
+  "model": "chat.chatmessage",
+  "pk": 5,
+  "fields": {
+    "session": 1,
+    "sender_role": "user",
+    "content": "các ứng dụng nổi bật của nó là gì?",
+    "created_at": "2026-04-18T14:17:36.530Z"
+  }
+},
+{
+  "model": "chat.chatmessage",
+  "pk": 6,
+  "fields": {
+    "session": 1,
+    "sender_role": "ai",
+    "content": "Dựa trên tài liệu được cung cấp, các ứng dụng nổi bật của trí tuệ nhân tạo (AI) bao gồm:\n\n*   **Công cụ tìm kiếm web tiên tiến:** Ví dụ như Google Tìm kiếm.\n*   **Hệ thống đề xuất:** Được sử dụng bởi các nền tảng như YouTube, Amazon và Netflix.\n*   **Trợ lý ảo:** Ví dụ như Trợ lý Google, Siri và Alexa.\n*   **Xe tự lái:** Ví dụ như Waymo.\n*   **Công cụ sáng tạo và nội dung tạo sinh:** Bao gồm các mô hình ngôn ngữ và nghệ thuật AI.\n*   **Trò chơi chiến lược:** Khả năng chơi và phân tích vượt trội hơn con người trong các trò chơi như cờ vua và cờ vây.\n*   **Ứng dụng trong các lĩnh vực công việc trí tuệ (tiềm năng thay thế con người):** Chăm sóc sức khỏe, phục vụ, sản xuất theo dây chuyền tự động và công việc văn phòng.\n\nNgoài ra, tài liệu cũng lưu ý rằng nhiều công nghệ AI đỉnh cao đã được tích hợp vào các ứng dụng thông thường đến mức chúng không còn được gọi là AI nữa khi đã trở nên đủ hữu ích và phổ biến.\n\n---\n**Thông tin tham khảo:**\n* Tài liệu: Trí tuệ nhân tạo.pdf, Trang 1, Đoạn: \"Trí tuệ nhân tạo Trí tuệ nhân tạo (tiếng Anh: Artificial int...\"\n* Tài liệu: Trí tuệ nhân tạo.pdf, Trang 1, Đoạn: \"nghệ thuật AI); cùng khả năng chơi và phân tích vượt trội hơ...\"\n* Tài liệu: Trí tuệ nhân tạo.pdf, Trang 1, Đoạn: \"tối ưu hóa toán học, logic hình thức, mạng nơ-ron nhân tạo, ...\"\n* Tài liệu: Trí tuệ nhân tạo.pdf, Trang 9, Đoạn: \"Nếu AI phát triển hoàn thiện, nó có khả năng thay thế con ng...\"\n* Tài liệu: Trí tuệ nhân tạo.pdf, Trang 10, Đoạn: \"Nhận thức nhân tạo – một lĩnh vực trong khoa học nhận thức T...\"\n* Tài liệu: Trí tuệ nhân tạo.pdf, Trang 10, Đoạn: \"Thuật ngữ trí tuệ nhân tạo – danh sách các định nghĩa về thu...\"\n",
+    "created_at": "2026-04-18T14:17:44.616Z"
+  }
+},
+{
+  "model": "chat.chatmessage",
+  "pk": 31,
+  "fields": {
+    "session": 14,
+    "sender_role": "user",
+    "content": "Thiết kế web là gì",
+    "created_at": "2026-04-20T10:05:46.228Z"
+  }
+},
+{
+  "model": "chat.chatmessage",
+  "pk": 32,
+  "fields": {
+    "session": 14,
+    "sender_role": "ai",
+    "content": "Dựa trên tài liệu được cung cấp, thiết kế web được định nghĩa như sau:\n\n**Thiết kế web** (hay thiết kế website) đơn giản là công việc tạo một trang web cho cá nhân, công ty, doanh nghiệp hoặc tổ chức.\n\nCó 2 phương thức chính để thiết kế Web là:\n*   **Thiết kế Web tĩnh:** Sử dụng các đoạn mã HTML (HTML5), hình ảnh, Video, Audio, Flash, Javascript (jQuery) và CSS để tạo giao diện. Tập tin thường có phần mở rộng là `.html` hoặc `.htm`. Đặc điểm của web tĩnh là không có hệ cơ sở dữ liệu.\n*   **Thiết kế Web động:** Là web có hệ thống cơ sở dữ liệu dùng để cung cấp thông tin cho website. Web động có khả năng quản lý dữ liệu tốt, tương tác cao, dễ dàng cập nhật nội dung và thân thiện với người dùng.\n\n---\n**Thông tin tham khảo:**\n* Tài liệu: Lập trình Web.pdf, Trang 1, Đoạn: \"HTML5 là phiên bản mới nhất của HTML được đánh giá rất cao t...\"\n* Tài liệu: Lập trình Web.pdf, Trang 1, Đoạn: \"1. Khó thay đổi giao diện một cách đồng bộ. 2. Khó thay đổi ...\"\n* Tài liệu: Lập trình Web.pdf, Trang 2, Đoạn: \"Giao diện quản lý ứng dụng mã nguồn mở Joomla dùng để phát t...\"\n* Tài liệu: Lập trình Web.pdf, Trang 2, Đoạn: \"RedHat, Ubuntu. các file có phần mở rộng là .php hoặc php3 v...\"\n* Tài liệu: Lập trình Web.pdf, Trang 2, Đoạn: \"kết nối Internet liên tục. Trong các giải pháp lưu trữ trên ...\"\n* Tài liệu: Lập trình Web.pdf, Trang 3, Đoạn: \"Màu sắc trên Web Ngôn ngữ lập trình HTML CSS Javascript Flas...\"\n",
+    "created_at": "2026-04-20T10:05:49.261Z"
+  }
+},
+{
+  "model": "chat.chatmessage",
+  "pk": 33,
+  "fields": {
+    "session": 15,
+    "sender_role": "user",
+    "content": "Bóng đá là gì",
+    "created_at": "2026-04-20T10:32:42.821Z"
+  }
+},
+{
+  "model": "chat.chatmessage",
+  "pk": 34,
+  "fields": {
+    "session": 15,
+    "sender_role": "ai",
+    "content": "Xin lỗi, tôi không tìm thấy thông tin này trong kho tài liệu.",
+    "created_at": "2026-04-20T10:32:42.934Z"
+  }
+},
+{
+  "model": "chat.chatmessage",
+  "pk": 35,
+  "fields": {
+    "session": 16,
+    "sender_role": "user",
+    "content": "trí tuệ nhân tạo là gì",
+    "created_at": "2026-04-20T10:49:11.338Z"
+  }
+},
+{
+  "model": "chat.chatmessage",
+  "pk": 36,
+  "fields": {
+    "session": 16,
+    "sender_role": "ai",
+    "content": "Dựa trên tài liệu được cung cấp, trí tuệ nhân tạo (tiếng Anh: Artificial intelligence, viết tắt là AI) được định nghĩa như sau:\n\n*   **Định nghĩa cơ bản:** Là khả năng của các hệ thống máy tính thực hiện các nhiệm vụ liên quan đến trí thông minh của con người.\n*   **Các khả năng cụ thể:** Bao gồm học tập, suy luận, giải quyết vấn đề, nhận thức và đưa ra quyết định.\n*   **Lĩnh vực nghiên cứu:** Đây là một nhánh của khoa học máy tính, tập trung vào việc phát triển và nghiên cứu các phương pháp, phần mềm giúp máy móc có thể:\n    *   Nhận thức môi trường xung quanh.\n    *   Sử dụng học tập và trí tuệ để thực hiện hành động nhằm tối đa hóa khả năng đạt được các mục tiêu đã định.\n*   **Các trường phái tư duy:** AI được chia thành hai trường phái chính là Trí tuệ nhân tạo truyền thống và Trí tuệ tính toán.\n*   **Mục tiêu truyền thống:** Nghiên cứu AI tập trung vào các mục tiêu như học tập, lập luận, biểu diễn tri thức, lập kế hoạch, xử lý ngôn ngữ tự nhiên, nhận thức và hỗ trợ robot.\n\n---\n**Thông tin tham khảo:**\n* Tài liệu: Trí tuệ nhân tạo.pdf, Trang 1, Đoạn: \"Trí tuệ nhân tạo Trí tuệ nhân tạo (tiếng Anh: Artificial int...\"\n* Tài liệu: Trí tuệ nhân tạo.pdf, Trang 1, Đoạn: \"nghệ thuật AI); cùng khả năng chơi và phân tích vượt trội hơ...\"\n* Tài liệu: Trí tuệ nhân tạo.pdf, Trang 1, Đoạn: \"tối ưu hóa toán học, logic hình thức, mạng nơ-ron nhân tạo, ...\"\n* Tài liệu: Trí tuệ nhân tạo.pdf, Trang 6, Đoạn: \"điều khiển học, điều này khiến các nhà nghiên cứu cân nhắc k...\"\n* Tài liệu: Trí tuệ nhân tạo.pdf, Trang 10, Đoạn: \"Nhận thức nhân tạo – một lĩnh vực trong khoa học nhận thức T...\"\n* Tài liệu: Trí tuệ nhân tạo.pdf, Trang 10, Đoạn: \"Thuật ngữ trí tuệ nhân tạo – danh sách các định nghĩa về thu...\"\n",
+    "created_at": "2026-04-20T10:49:16.849Z"
+  }
+},
+{
+  "model": "chat.chatmessage",
+  "pk": 37,
+  "fields": {
+    "session": 16,
+    "sender_role": "user",
+    "content": "các ứng dụng nổi bật của nó là gì",
+    "created_at": "2026-04-20T10:50:30.261Z"
+  }
+},
+{
+  "model": "chat.chatmessage",
+  "pk": 38,
+  "fields": {
+    "session": 16,
+    "sender_role": "ai",
+    "content": "Dựa trên tài liệu được cung cấp, các ứng dụng nổi bật của trí tuệ nhân tạo (AI) bao gồm:\n\n*   **Công cụ tìm kiếm web tiên tiến:** Ví dụ như Google Tìm kiếm.\n*   **Hệ thống đề xuất:** Được sử dụng bởi các nền tảng như YouTube, Amazon và Netflix.\n*   **Trợ lý ảo:** Ví dụ như Trợ lý Google, Siri và Alexa.\n*   **Xe tự lái:** Ví dụ như Waymo.\n*   **Công cụ sáng tạo và nội dung tạo sinh:** Bao gồm các mô hình ngôn ngữ và nghệ thuật AI.\n*   **Chơi và phân tích trò chơi chiến lược:** Có khả năng vượt trội hơn con người trong các trò chơi như cờ vua và cờ vây.\n\nNgoài ra, tài liệu cũng lưu ý rằng nhiều công nghệ AI đã được tích hợp vào các ứng dụng thông thường đến mức chúng không còn được dán nhãn là AI khi đã trở nên phổ biến và hữu ích.\n\n---\n**Thông tin tham khảo:**\n* Tài liệu: Trí tuệ nhân tạo.pdf, Trang 1, Đoạn: \"Trí tuệ nhân tạo Trí tuệ nhân tạo (tiếng Anh: Artificial int...\"\n* Tài liệu: Trí tuệ nhân tạo.pdf, Trang 1, Đoạn: \"nghệ thuật AI); cùng khả năng chơi và phân tích vượt trội hơ...\"\n* Tài liệu: Trí tuệ nhân tạo.pdf, Trang 1, Đoạn: \"tối ưu hóa toán học, logic hình thức, mạng nơ-ron nhân tạo, ...\"\n* Tài liệu: Trí tuệ nhân tạo.pdf, Trang 9, Đoạn: \"Nếu AI phát triển hoàn thiện, nó có khả năng thay thế con ng...\"\n* Tài liệu: Trí tuệ nhân tạo.pdf, Trang 10, Đoạn: \"Nhận thức nhân tạo – một lĩnh vực trong khoa học nhận thức T...\"\n* Tài liệu: Trí tuệ nhân tạo.pdf, Trang 10, Đoạn: \"Thuật ngữ trí tuệ nhân tạo – danh sách các định nghĩa về thu...\"\n",
+    "created_at": "2026-04-20T10:50:56.599Z"
+  }
+}
+]

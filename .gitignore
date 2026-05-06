@@ -1,5 +1,5 @@
 venv/
-
+*.env
 Thumbs.db
 .DS_Store
 desktop.ini

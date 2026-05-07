@@ -26,7 +26,7 @@ This guide provides step-by-step instructions on how to deploy and run the fine-
 - Upload the file `ui-chatbox-finetune.ipynb` to the notebook editor.
 
 ### 2. Prepare the Dataset
-- Access the link: https://www.kaggle.com/datasets/nguyentuan205/fine-tuned-dataset
+- Access the link: https://www.kaggle.com/datasets/nguyentuan205/fine-tuned-dataset and dowload the dataset
 - Navigate to the **Data** or **Input** section in the right sidebar.
 - Click on **Add Data** and upload your `fine-tuned-model` folder.
 - Name the dataset as `fine-tuned-dataset`. This ensures the notebook can correctly reference the model paths.

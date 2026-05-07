@@ -1,8 +1,0 @@
-# Dữ liệu Docker MySQL
-mysql_data/
-*/mysql_data/
-
-# OS & IDE
-.DS_Store
-.vscode/
-.idea/
